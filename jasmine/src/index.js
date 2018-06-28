@@ -1,6 +1,6 @@
 String.prototype.hasVowel = function () {
     // scan through the vowels to make sure it contains at least one
-    return /[aeiou]/g.test(this); 
+    return /[aeiou]/ig.test(this); 
 };
 
 
