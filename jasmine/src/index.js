@@ -3,7 +3,6 @@ String.prototype.hasVowel = function () {
     return /[aeiou]/ig.test(this); 
 };
 
-
 String.prototype.toUpper = function () {
     var uc = '';
     for (i = 0; i < this.length; i++) {
@@ -15,7 +14,6 @@ String.prototype.toUpper = function () {
 String.prototype.toLower = function () {
     // create a result variable
     var lc = '';
-
     for (var i = 0; i < this.length; i++) {
         // get the character code of the current character
         var code = this.charCodeAt(i);
